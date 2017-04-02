@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbarStyle="insideInset"
+    android:scrollbars="vertical"
+    tools:context="com.makemyowncard.android.decentherocards.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#5d4037"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Archetype"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#b71c1c"
+            android:gravity="center"
+            android:paddingTop="8dp"
+            android:text="@string/archetype_warrior"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textColor="@android:color/white"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/HeroName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#b71c1c"
+            android:gravity="center"
+            android:paddingBottom="8dp"
+            android:text="@string/grisban_the_thirsty"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="@android:color/white"
+            android:textStyle="normal|bold" />
+
+        <RelativeLayout
+            android:id="@+id/Center_LinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:id="@+id/CenterLeft_LinearLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Speed"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="#4caf50"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="@string/speed"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    android:textColor="@android:color/black"
+                    android:textStyle="normal|bold" />
+
+                <TextView
+                    android:id="@+id/value_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="@string/value_3"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    android:textColor="@android:color/black"
+                    android:textStyle="normal|bold" />
+
+                <TextView
+                    android:id="@+id/Health"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="#ef5350"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="@string/health"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    android:textColor="@android:color/black"
+                    android:textStyle="normal|bold" />
+
+                <TextView
+                    android:id="@+id/value_14"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="@string/value_14"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    android:textColor="@android:color/black"
+                    android:textStyle="normal|bold" />
+
+                <TextView
+                    android:id="@+id/Stamina"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="#ffc400"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="@string/stamina"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    android:textColor="@android:color/black"
+                    android:textStyle="normal|bold" />
+
+                <TextView
+                    android:id="@+id/value_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="@string/value_4"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    android:textColor="@android:color/black"
+                    android:textStyle="normal|bold" />
+
+                <TextView
+                    android:id="@+id/Defence_dice"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="#3949ab"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="@string/defence"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    android:textColor="@android:color/white"
+                    android:textStyle="normal|bold" />
+
+                <TextView
+                    android:id="@+id/Defence_dice_color"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="@string/defence_dice_color"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    android:textColor="@android:color/black"
+                    android:textStyle="normal|bold" />
+
+                <TextView
+                    android:id="@+id/Willpower"
+                    android:layout_width="match_parent"
+                    android:layout_height="0sp"
+                    android:layout_weight="1.5"
+                    android:drawableTop="@drawable/willpower"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="@string/value_3"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    android:textColor="@android:color/black"
+                    android:textStyle="normal|bold" />
+
+                <TextView
+                    android:id="@+id/Might"
+                    android:layout_width="match_parent"
+                    android:layout_height="0sp"
+                    android:layout_weight="1.5"
+                    android:drawableTop="@drawable/might"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="@string/value_5"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    android:textColor="@android:color/black"
+                    android:textStyle="normal|bold" />
+
+                <TextView
+                    android:id="@+id/Knowledge"
+                    android:layout_width="match_parent"
+                    android:layout_height="0sp"
+                    android:layout_weight="1.5"
+                    android:drawableTop="@drawable/knowledge"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="@string/value_2"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    android:textColor="@android:color/black"
+                    android:textStyle="normal|bold" />
+
+                <TextView
+                    android:id="@+id/Awareness"
+                    android:layout_width="match_parent"
+                    android:layout_height="0sp"
+                    android:layout_weight="1.5"
+                    android:drawableTop="@drawable/awareness"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="@string/value_1"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    android:textColor="@android:color/black"
+                    android:textStyle="normal|bold" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/picture"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toEndOf="@id/CenterLeft_LinearLayout"
+                android:layout_toRightOf="@id/CenterLeft_LinearLayout"
+                android:scaleType="centerCrop"
+                android:src="@drawable/hero_grisban"
+                tools:ignore="ContentDescription" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/Hero_Ability"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:background="#fff176"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="@string/hero_ability"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/Hero_Ability_Grisban"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff176"
+            android:gravity="center_horizontal"
+            android:padding="4dp"
+            android:text="@string/hero_ability_grisban"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textColor="@android:color/black"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/Heroic_Feat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:background="#fff176"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="@string/heroic_feat"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/Heroic_Feat_Grisban"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff176"
+            android:gravity="center_horizontal"
+            android:padding="4dp"
+            android:text="@string/heroic_feat_grisban"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textColor="@android:color/black"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+</ScrollView>

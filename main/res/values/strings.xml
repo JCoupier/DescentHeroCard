@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Descent : Heroes Cards</string>
+    <string name="archetype_warrior">Archetype : Warrior</string>
+    <string name="grisban_the_thirsty">Grisban the Thirsty</string>
+    <string name="speed">Speed</string>
+    <string name="health">Health</string>
+    <string name="stamina">Stamina</string>
+    <string name="defence">Defence</string>
+    <string name="defence_dice_color">1 Grey</string>
+    <string name="value_3">3</string>
+    <string name="value_4">4</string>
+    <string name="value_14">14</string>
+    <string name="hero_ability">Hero Ability</string>
+    <string name="hero_ability_grisban">Each time you perform a rest action, you may immediately discard 1 Condition card from yourself.</string>
+    <string name="heroic_feat">Heroic Feat</string>
+    <string name="heroic_feat_grisban">Use during your turn to perform 1 attack action. This is in addition to your 2 actions on your turn.</string>
+    <string name="willpower">Willpower</string>
+    <string name="value_5">5</string>
+    <string name="value_2">2</string>
+    <string name="value_1">1</string>
+
+</resources>
